@@ -1,4 +1,5 @@
-BOARD_PLATFORM_LIST := test
+#BOARD_PLATFORM_LIST := test
+BOARD_PLATFORM_LIST := msm8998
 BOARD_IPAv3_LIST := msm8998
 BOARD_IPAv3_LIST += sdm845
 ifneq ($(call is-board-platform-in-list,$(BOARD_PLATFORM_LIST)),true)
